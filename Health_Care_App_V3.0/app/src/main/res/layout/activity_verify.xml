@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imgVwAppIcon"
+        android:src="@drawable/app_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/txtVwHello"
+        android:layout_marginBottom="30dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/txtVwAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgVwAppIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-105dp"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtVwHello"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/edtxtPassword"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="@string/hint_hello"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtxtPassword"
+        android:layout_marginStart="100dp"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        
+        android:backgroundTint="@color/light_gray"
+        android:background="@drawable/border_16_gray"
+        android:hint="@string/hint_password"
+        android:importantForAutofill="no"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtxtPassword"
+        android:layout_marginTop="90dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/button_verify"
+        android:backgroundTint="@color/button_red"
+        android:textColor="@color/text_white"/>
+
+</RelativeLayout>

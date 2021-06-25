@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/iqDayLeft"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_16_gray"
+            android:backgroundTint="@color/light_gray">
+
+            <TextView
+                android:id="@+id/txtVwDayLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="30"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/days_left"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_16_gray"
+            android:backgroundTint="@color/light_gray">
+
+            <TextView
+                android:id="@+id/txtVwHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="30"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/hour"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_16_gray"
+            android:backgroundTint="@color/light_gray">
+
+            <TextView
+                android:id="@+id/txtVwMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="30"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/minute"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.se25.healthcare.Support.ItemSquare
+        android:id="@+id/iqDayLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/rlHPBD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="80dp"
+                android:background="@drawable/border_32_for_menu"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/birthday_cake" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/happy_birthday"
+                android:textColor="@color/red"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlTimeCount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="80dp"
+                android:background="@drawable/border_32_for_menu"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/clock" />
+        </RelativeLayout>
+    </com.se25.healthcare.Support.ItemSquare>
+
+</RelativeLayout>

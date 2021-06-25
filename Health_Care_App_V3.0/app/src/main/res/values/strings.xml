@@ -1,0 +1,265 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Health Care</string>
+    <!--Action Bar-->
+    <string name="todo_action_home">Back To Menu</string>
+    <string name="todo_action_setting">Open Settings</string>
+    <string name="title_menu">Menu</string>
+    <!--Access-->
+    <!--====Verify-->
+    <string name="hint_hello">Welcome Back</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="hint_username">Enter Username</string>
+    <string name="button_verify">Verify</string>
+    <!--====Personal-->
+    <string name="title_personal">Personal</string>
+    <string name="card_user">User Card</string>
+    <string name="card_gender">Gender</string>
+    <string name="male_gender">Male</string>
+    <string name="female_gender">Female</string>
+    <string name="button_backtoapp">Back To App</string>
+    <!--Main-->
+    <string name="toast_testing">This component is not available yet.</string>
+    <string name="button_news">Newspaper</string>
+    <string name="button_smartwatch">Connect Smart Watch</string>
+    <string name="button_doctor">Contact Doctor</string>
+    <string name="button_heart">Heart Care</string>
+    <string name="button_breath">Breath Care</string>
+    <string name="button_BMI">BMI Care</string>
+    <string name="button_calories">Calories Care</string>
+    <string name="button_food">Food Search</string>
+    <string name="button_exercise">Exercise Search</string>
+    <string name="button_sleep">Sleep Care</string>
+    <string name="button_phone">Phone Control</string>
+    <string name="button_period">Period Care</string>
+
+    <!--Components-->
+    <string name="toast_not_select_fail">Fail: you need to select something first.</string>
+    <string name="evaluate_fail">Fail: data is not valid.</string>
+    <string name="toast_fail">Fail: something went wrong.</string>
+    <string name="toast_delete_fail_not_select">Fail: you need to select an item</string>
+    <string name="toast_success">Success: </string>
+    <string name="dialog_evaluate_one">Evaluate Item Value</string>
+    <string name="dialog_okay">Okay</string>
+    <string name="form_title_add">Add Form</string>
+    <string name="form_title_edit">Edit Form</string>
+    <string name="button_save">Save</string>
+    <string name="button_changegraph">Change Graph</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_stopedit">Stop Edit</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_evaluate">Evaluate</string>
+    <string name="button_statistics">Statistics</string>
+    <string name="header_item1">Item 1</string>
+    <string name="header_item2">Item 2</string>
+    <string name="header_item3">Item 3</string>
+    <string name="hint_item1">hint item 1</string>
+    <string name="hint_item2">hint item 2</string>
+    <string name="hint_item3">hint item 3</string>
+
+    <string name="title_form">Form</string>
+    <string name="title_list">List</string>
+    <string name="title_graph">Graph</string>
+    <string name="header_date_create">Date Create</string>
+    <string name="header_heart_rate">Heart Rate</string>
+    <string name="header_heart_pressure">Heart Pressure</string>
+    <string name="header_breath_hold">Breath Hold</string>
+    <string name="header_calories_in">Calories in</string>
+    <string name="header_calories_out">Calories out</string>
+    <string name="header_sleep_time">Sleep time</string>
+    <string name="header_wake_up_time">Wake up time</string>
+    <string name="header_period_start">Period start</string>
+    <string name="header_height">Height</string>
+    <string name="header_weight">Weight</string>
+    <string name="header_phone_use">Use in</string>
+    <string name="hint_blank">blank</string>
+    <string name="date_now">Now</string>
+
+    <string name="hint_empty" >Empty</string>
+    <string name="hint_day">Day</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_datetime">Date Time</string>
+    <string name="hint_BPM">BPM</string>
+    <string name="hint_mmHg">mmHg</string>
+    <string name="hint_s">s</string>
+    <string name="hint_h">h</string>
+    <string name="hint_kg">kg</string>
+    <string name="hint_cm">cm</string>
+    <string name="hint_kcal">kcal</string>
+    <!--Heart Pressure-->
+    <string name="evaluate_heart_pressure_very_bad_h">Hypertensive crisis: Immediately notify your loved ones, contact the nearest medical facility for support</string>
+    <string name="evaluate_heart_pressure_bad_h2">Hypertension stage 2: The condition can get worse at any time, so ask your doctor to prescribe a diuretic in combination with an antihypertensive drug.</string>
+    <string name="evaluate_heart_pressure_bad_h1">Hypertension stage 1: Your doctor may prescribe diuretics to lower your blood pressure and you need to adjust your lifestyle and regularly control your blood pressure.</string>
+    <string name="evaluate_heart_pressure_warning_h">Hypertension Warning: should lie down to rest, breathe deeply, relax the body, do not add sugar, do not eat salty foods, do not use stimulants</string>
+    <string name="evaluate_heart_pressure_good">Good pressure: keep living like this</string>
+    <string name="evaluate_heart_pressure_very_good">Very Good pressure: keep living like this</string>
+    <string name="evaluate_heart_pressure_warning_l">Low blood pressure: limit alcohol intake and increase water intake, control body salt intake, avoid hot baths or saunas</string>
+    <string name="evaluate_heart_pressure_bad_l">Low blood pressure crisis: Immediately contact the nearest medical center for treatment
+</string>
+    <string name="evaluate_impossible">Impossible: The data you entered is quite vague and it is unlikely that such a case will happen
+</string>
+    <!--Heart Rate-->
+    <string name="evaluate_heart_rate_bad_h">Heart Rate High: Please avoid vigorous exercise and try to breathe evenly
+</string>
+    <string name="evaluate_heart_rate_warning_h">Heart Rate High Warning: Give up bad habits such as smoking, alcohol, using stimulants and drink enough water
+</string>
+    <string name="evaluate_heart_rate_normal">Heart Rate Normal: you are healthy
+</string>
+    <string name="evaluate_heart_rate_good">Good Heart Rate: you are healthy
+</string>
+    <string name="evaluate_heart_rate_warning_l">Heart Rate Low Warning: Your heart rate shows signs of slowing down, you should quit smoking, reduce salty foods, limit fatty foods, eat more vegetables
+</string>
+    <string name="evaluate_heart_rate_bad_l">Heart Rate Low: You should contact your doctor to ask for medicine, call your relatives for support
+</string>
+
+    <!--Hold Breath-->
+    <string name="evaluate_breath_very_good">Very Good: you have the lungs of an athlete, keep practicing
+</string>
+    <string name="evaluate_breath_good">Good: Your lungs can handle pressure quite well, keep up the exercise
+</string>
+    <string name="evaluate_breath_normal">Normal: Your lungs are like everyone else, you should exercise more to be in good shape
+</string>
+    <string name="evaluate_breath_bad">Low: you have a little trouble with your lungs, maybe because of the body, but you should try exercises that require physical strength such as jogging, swimming or pull-ups
+</string>
+    <string name="evaluate_breath_very_bad">Very Bad: you have problems with your lungs, if you find it difficult to breathe, contact your doctor immediately, or it may be because you are lacking oxygen due to intense activity
+</string>
+
+    <!--BMI-->
+    <string name="evaluate_bmi_very_bad_h">Obese class 3: you should go to the medical center for treatment right away, your condition is very bad
+</string>
+    <string name="evaluate_bmi_bad_h2">Obese class 2: Be careful in eating because you will most likely have fatty liver, high blood pressure, diabetes
+</string>
+    <string name="evaluate_bmi_bad_h1">Obese class 1: You are not in a dangerous state, but you must also be vigilant in eating and drinking and should build an exercise schedule to reduce excess fat
+</string>
+    <string name="evaluate_bmi_warning_h">Overweight: You should consider spending more time exercising and building a reasonable diet
+</string>
+    <string name="evaluate_bmi_normal">Normal: your body is quite moderate and should maintain a healthy diet, plus exercise
+</string>
+    <string name="evaluate_bmi_warning_l">Mild Thinness: you need nutrients, eat more vegetables and red meat to build muscle
+</string>
+    <string name="evaluate_bmi_bad_l1">Moderate Thinness: You should add fat to your diet
+</string>
+    <string name="evaluate_bmi_bad_l2">Severe Thinness: You look like a toothpick, your diet is too poor to make you like that, eat more meals a day and get enough sleep
+</string>
+    <!--Calories in Day-->
+    <string name="evaluate_calories_bad_h2">Too high: you have too many calories left over, so it\'s easy to get acne, so adjust it
+</string>
+    <string name="evaluate_calories_bad_h1">High: you take in a bit more than you consume, do something to reduce it
+</string>
+    <string name="evaluate_calories_warning_h">Warning: Your calorie level is too different
+</string>
+    <string name="evaluate_calories_normal">Normal: enough calories to keep you active
+</string>
+    <string name="evaluate_calories_good">Good: proper calorie levels for work and activity
+</string>
+    <string name="evaluate_calories_warning_l">Less: You take in quite a bit, so you should add more nutrients
+</string>
+    <string name="evaluate_calories_bad_l1">Too less: looks like you are not eating, should eat something right away to avoid fainting due to lack of energy
+</string>
+
+    <!--Sleep Time in Day-->
+    <string name="evaluate_sleep_very_bad_h">Sleep too much: Oversleeping can ruin your circadian time, try to get up earlier to improve your spirit
+</string>
+    <string name="evaluate_sleep_bad_h">Long sleep: Sleeping too much will make you very sluggish and difficult to complete your work, so adjust
+</string>
+    <string name="evaluate_sleep_warning_h">Long sleep: Your sleep is good enough to function for 1 day
+</string>
+    <string name="evaluate_sleep_normal">Normal: You should wake up earlier, you should create a morning exercise routine to wake up earlier
+</string>
+    <string name="evaluate_sleep_warning_l">Short sleep: If you\'re not busy, give me another 1-2 hours to sleep
+</string>
+    <string name="evaluate_sleep_bad_l">Short sleep: If you find it difficult to fall asleep, avoid stimulant foods such as coffee or cows, turn on soft music and practice deep breathing to help you fall asleep more easily.
+</string>
+    <string name="evaluate_sleep_very_bad_l">Short sleep: you should turn off your phone and go to sleep, your sleep time is like the number of times it rains in the desert
+</string>
+
+    <!--Phone use time in Day-->
+    <string name="evaluate_phone_very_bad_h">Use too much: If you don\'t want to be a slave to your phone, turn it off and talk to your loved ones more
+</string>
+    <string name="evaluate_phone_bad_h">Use much: should reduce the time to use from tomorrow and focus on outside activities more
+</string>
+    <string name="evaluate_phone_warning_h">Use much: it seems that you depend on your phone a lot, learn to read books, it will be very helpful
+</string>
+    <string name="evaluate_phone_normal">Normal: you use with a sufficient prognosis of a person
+</string>
+    <string name="evaluate_phone_good">Good: you are not dominated by your phone and have a healthy life, keep up the good work
+</string>
+
+    <!--Period-->
+    <string name="evaluate_period_very_bad_h">Too Long: You should consult your doctor about this
+</string>
+    <string name="evaluate_period_bad_h">Long: You should consult a relative or doctor and have tampons ready in case
+</string>
+    <string name="evaluate_period_warning_h">Warning: abnormal, should actively buy tampons in case of need
+</string>
+    <string name="evaluate_period_normal">Normal: Normal menstrual cycle, eat in moderation and keep in good shape to avoid irregular periods
+</string>
+    <string name="evaluate_period_warning_l">Warning: your period has signs of earlier, please pay attention to avoid unexpected cases
+</string>
+    <string name="evaluate_period_bad_l">Short: You should delay your cycle a few days early to take better care of yourself
+</string>
+    <string name="evaluate_period_very_bad_l">Too Short: Menstrual cycle is earlier than normal people, be careful to take better care of yourself
+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toast_item_save_fail">Fail: data of item not valid.</string>
+    <string name="toast_item_add_success">Success: Item add success.</string>
+    <string name="toast_item_edit_success">Success: Item edit success.</string>
+    <string name="toast_item_delete_success">Success: delete success.</string>
+    <string name="dialog_evaluate_list">Evaluate List Item Value</string>
+    <string name="dialog_general">General</string>
+    <string name="dialog_unreliable_data">Data Reliability</string>
+    <string name="dialog_evaluate_fast_increase">Fast increase</string>
+    <string name="dialog_evaluate_increase">Increase</string>
+    <string name="dialog_evaluate_low_increase">Low increase</string>
+    <string name="dialog_evaluate_same">Same</string>
+    <string name="dialog_evaluate_decrease">Decrease</string>
+    <string name="dialog_from">From</string>
+    <string name="dialog_evaluate_fast_decrease">Fast decrease</string>
+    <string name="dialog_to">To</string>
+    <string name="dialog_predict">Predict</string>
+    <string name="dialog_recently">Recently</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+    <string name="milis">Milisecond</string>
+    <string name="toast_evaluate_zero">You have no data</string>
+    <string name="toast_statistics_all_item">Change to statistics of all items</string>
+    <string name="dialog_README_FORMAT">Data processing with units of %s, prediction after 10 %s.</string>
+    <string name="title_graph_all_items">All Items</string>
+    <string name="title_graph_selected_items">Selected Items</string>
+    <string name="header_bmi">BMI</string>
+    <string name="dialog_breath_test">Time Count</string>
+    <string name="dialog_breath_ready">Press okay when you are ready.</string>
+    <string name="dialog_cancle">Cancel</string>
+    <string name="input_waiting">Waiting</string>
+    <string name="evaluate_calories_very_good">fit: You should keep your workout regimen like this
+</string>
+    <string name="wipe_data">Wipe Data</string>
+    <string name="data">Data</string>
+    <string name="add_data_to_temp">Add data to temp</string>
+    <string name="request">Request</string>
+    <string name="result">Result</string>
+    <string name="food_example">3 eggs, 100g sandwich,...</string>
+    <string name="exercise_example">1 hour running,...</string>
+    <string name="address">Address</string>
+    <string name="dialog_personal_not_valid">Data not valid</string>
+    <string name="dialog_personal_back">Back to menu without save information?</string>
+    <string name="toast_you_need_create_personal_data">You need to create personal data</string>
+    <string name="toast_personal_data_save">Personal data saved</string>
+    <string name="dialog_personal_data_change">Personal data change</string>
+    <string name="dialog_ask_to_save">Do you want to save?</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="wrong_password">Wrong password</string>
+    <string name="dialog_create_new_personal_data">Create new personal data</string>
+    <string name="dialog_ask_to_clear_data">Do you want to delete all data and create new one?</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="button_birthday">Birthday</string>
+    <string name="year">Year</string>
+    <string name="days_left">Days Left</string>
+    <string name="happy_birthday">Happy Birthday</string>
+    <string name="data_create">Data created</string>
+    <string name="ask_to_create_data">Do you want to create test data?</string>
+    <string name="btn_logout">Logout</string>
+</resources>

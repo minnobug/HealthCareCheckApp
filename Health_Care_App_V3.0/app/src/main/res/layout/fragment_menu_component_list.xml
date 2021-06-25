@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout
+        android:id="@+id/tbrController"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_height="50dp">
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="2.5dp"
+                android:text="@string/button_edit"
+                android:textSize="12sp"
+                android:backgroundTint="@color/button_gray"
+                android:textColor="@color/text_black"
+                android:drawableLeft="@drawable/button_edit"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="2.5dp"
+                android:layout_marginEnd="2.5dp"
+                android:text="@string/button_delete"
+                android:textSize="12sp"
+                android:backgroundTint="@color/button_gray"
+                android:textColor="@color/text_black"
+                android:drawableLeft="@drawable/button_delete"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btnStatistics"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="2.5dp"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/button_gray"
+                android:drawableLeft="@drawable/button_statistics"
+                android:text="@string/button_statistics"
+                android:textColor="@color/text_black"
+                android:textSize="12sp"
+                tools:ignore="ButtonStyle" />
+        </TableRow>
+    </TableLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rVwItems"
+        android:layout_below="@id/tbrController"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent"/>
+    <ImageButton
+        android:id="@+id/btnRefresh"
+        android:scaleType="fitCenter"
+        android:layout_margin="10dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/border_32_for_menu"
+        android:src="@drawable/refresh"/>
+
+</RelativeLayout>

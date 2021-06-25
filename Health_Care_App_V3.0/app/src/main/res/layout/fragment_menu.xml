@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="*">
+
+    <!--News - Connect Smart Watch - Doctor Contact-->
+    <TableRow android:layout_height="100dp">
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnNews"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/newspaper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_news" />
+        </com.se25.healthcare.Support.ItemSquare>
+
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnSmartWatch"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/smart_watch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_smartwatch" />
+        </com.se25.healthcare.Support.ItemSquare>
+
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnDoctor"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/doctor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_doctor" />
+        </com.se25.healthcare.Support.ItemSquare>
+    </TableRow>
+    <!--Heart - Breath - BMI-->
+    <TableRow android:layout_height="100dp">
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnHeart"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/heart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_heart" />
+        </com.se25.healthcare.Support.ItemSquare>
+
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnBreath"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/breath"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_breath" />
+        </com.se25.healthcare.Support.ItemSquare>
+
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnBMI"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bmi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_BMI" />
+        </com.se25.healthcare.Support.ItemSquare>
+    </TableRow>
+    <!--Calories - Food - Exercise-->
+    <TableRow android:layout_height="100dp">
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnCalories"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/calories_calculator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_calories" />
+        </com.se25.healthcare.Support.ItemSquare>
+
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnFood"
+                android:backgroundTint="@color/warning"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fast_food"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_food" />
+        </com.se25.healthcare.Support.ItemSquare>
+
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnExercise"
+                android:backgroundTint="@color/good"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/exercise"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_exercise" />
+        </com.se25.healthcare.Support.ItemSquare>
+    </TableRow>
+    <!--Sleeping - Phone - Period-->
+    <TableRow android:layout_height="100dp">
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnSleep"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sleep"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_sleep" />
+        </com.se25.healthcare.Support.ItemSquare>
+
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnPhone"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/smartphone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_phone" />
+        </com.se25.healthcare.Support.ItemSquare>
+
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnBirthday"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/birthday_cake"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_birthday" />
+            <com.se25.healthcare.Support.ItemSquare
+                android:id="@+id/iqBirthdayCount"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/border_32_for_menu"
+                android:backgroundTint="@color/red">
+                <TextView
+                    android:id="@+id/txtVwBirthdayCount"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </com.se25.healthcare.Support.ItemSquare>
+        </com.se25.healthcare.Support.ItemSquare>
+    </TableRow>
+    <!--Sleeping - Phone - Period-->
+    <TableRow android:layout_height="100dp">
+        <com.se25.healthcare.Support.ItemSquare
+            android:src="@drawable/app_icon"
+            android:layout_height="0dp"
+            android:layout_width="0dp">
+            <ImageButton
+                android:id="@+id/imgBtnPeriod"
+                android:backgroundTint="@color/button_gray"
+                android:background="@drawable/border_32_for_menu"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/blood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/button_period" />
+        </com.se25.healthcare.Support.ItemSquare>
+    </TableRow>
+
+
+</TableLayout>

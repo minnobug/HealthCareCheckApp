@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rlDoctor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_margin="1dp"
+    android:backgroundTint="@color/button_gray"
+    android:background="@drawable/border_16_gray"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/icon"
+        android:src="@drawable/doctor"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        android:layout_width="80dp"/>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_toEndOf="@id/icon"
+        android:layout_toStartOf="@id/llButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/txtVwName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Nguyen Van A"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVwPhone"
+            android:text="09000099"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtVwAddress"
+            android:text="DC: 192, Bình Phước"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llButton"
+        android:layout_alignParentEnd="true"
+        android:layout_width="80dp"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btnCall"
+            android:backgroundTint="@color/button_gray"
+            android:background="@drawable/border_32_for_menu"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/telephone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_news" />
+    </LinearLayout>
+
+</RelativeLayout>

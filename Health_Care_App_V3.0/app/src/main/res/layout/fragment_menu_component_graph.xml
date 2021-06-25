@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnEvaluate"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@id/lineChart"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/button_gray"
+        android:drawableLeft="@drawable/button_evaluate"
+        android:text="@string/button_evaluate"
+        android:textSize="12sp"
+        android:textColor="@color/text_black" />
+
+    <TextView
+        android:id="@+id/txtVwTitle"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/lineChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="5dp"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btnChangeGraph"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/lineChart"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:backgroundTint="@color/button_gray"
+        android:text="@string/button_changegraph"
+        android:drawableLeft="@drawable/button_swap"
+        android:textColor="@color/text_black" />
+
+    <ImageButton
+        android:id="@+id/btnRefresh"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/lineChart"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border_32_for_menu"
+        android:scaleType="fitCenter"
+        android:src="@drawable/refresh" />
+    <ImageButton
+        android:id="@+id/btnFit"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/lineChart"
+        android:layout_toStartOf="@id/btnRefresh"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border_32_for_menu"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fit_screen" />
+
+</RelativeLayout>

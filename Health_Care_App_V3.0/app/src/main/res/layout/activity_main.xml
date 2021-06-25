@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/rlActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/imgVwActionIcon"
+            android:src="@drawable/button_app_icon"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo_action_home" />
+        <TextView
+            android:id="@+id/txtVwActionTitle"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_menu"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
+        <ImageView
+            android:id="@+id/imgVwActionSettings"
+            android:src="@drawable/settings"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@string/todo_action_setting"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlContent"
+        android:layout_below="@id/rlActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:clickable="false"
+        android:background="@color/white"
+        android:visibility="visible">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/imgVwIcon"
+            android:src="@drawable/app_icon"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+    </RelativeLayout>
+</RelativeLayout>

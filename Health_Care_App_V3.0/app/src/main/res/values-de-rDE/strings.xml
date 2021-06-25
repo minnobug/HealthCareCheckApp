@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="todo_action_home">Zurück zum Menü</string>
+    <string name="app_name">Gesundheitspflege</string>
+    <string name="todo_action_setting">Einstellungen öffnen</string>
+    <string name="title_menu">Startseite</string>
+    <string name="hint_hello">Willkommen zurück</string>
+    <string name="hint_password">Passwort eingeben</string>
+    <string name="hint_username">Benutzername eingeben</string>
+    <string name="button_verify">Überprüfen</string>
+    <string name="title_personal">Persönlich</string>
+    <string name="card_user">Benutzerinformation</string>
+    <string name="card_gender">Geschlecht</string>
+    <string name="male_gender">Männlich</string>
+    <string name="female_gender">Weiblich</string>
+    <string name="button_backtoapp">Zurück zur App</string>
+    <string name="toast_testing">Diese Komponente ist noch nicht verfügbar.</string>
+    <string name="button_news">Nachrichten</string>
+    <string name="button_smartwatch">Smartwatch verbinden</string>
+    <string name="button_doctor">Arzt kontaktieren</string>
+    <string name="button_heart">Herzpflege</string>
+    <string name="button_breath">Atempflege</string>
+    <string name="button_BMI">BMI-Pflege</string>
+    <string name="button_calories">Kalorienpflege</string>
+    <string name="button_food">Lebensmittelsuche</string>
+    <string name="button_exercise">Übungssuche</string>
+    <string name="button_sleep">Schlafpflege</string>
+    <string name="button_phone">Telefonsteuerung</string>
+    <string name="button_period">Periodenpflege</string>
+    <string name="toast_not_select_fail">Fehler: Sie müssen zuerst etwas auswählen.</string>
+    <string name="evaluate_fail">Fehler: Daten sind ungültig.</string>
+    <string name="toast_fail">Fehler: Etwas ist schief gelaufen.</string>
+    <string name="toast_delete_fail_not_select">Fehler: Sie müssen ein Element auswählen</string>
+    <string name="dialog_evaluate_one">Artikelwert bewerten</string>
+    <string name="toast_success">Erfolg:</string>
+    <string name="dialog_okay">Okay</string>
+    <string name="form_title_add">Formular hinzufügen</string>
+    <string name="form_title_edit">Formular bearbeiten</string>
+    <string name="button_save">Speichern</string>
+    <string name="button_changegraph">Grafik ändern</string>
+    <string name="button_edit">Bearbeiten</string>
+    <string name="button_stopedit">Bearbeiten beenden</string>
+    <string name="button_delete">Löschen</string>
+    <string name="button_evaluate">Bewerten</string>
+    <string name="button_statistics">Statistiken</string>
+    <string name="header_item1">Gegenstand 1</string>
+    <string name="header_item2">Gegenstand 2</string>
+    <string name="header_item3">Gegenstand 3</string>
+    <string name="hint_item1">Hinweis Punkt 1</string>
+    <string name="hint_item2">Hinweis Punkt 2</string>
+    <string name="hint_item3">Hinweis Punkt 3</string>
+    <string name="title_form">Bilden</string>
+    <string name="title_list">Aufführen</string>
+    <string name="title_graph">Graph</string>
+    <string name="header_date_create">Datum erstellen</string>
+    <string name="header_heart_rate">Pulsschlag</string>
+    <string name="header_heart_pressure">Herzdruck</string>
+    <string name="header_breath_hold">Atem anhalten</string>
+    <string name="header_calories_in">Kalorien in</string>
+    <string name="header_calories_out">Kalorien raus</string>
+    <string name="header_sleep_time">Schlafenszeit</string>
+    <string name="header_wake_up_time">Zeit zum Aufstehen</string>
+    <string name="header_period_start">Periodenbeginn</string>
+    <string name="header_height">Höhe</string>
+    <string name="header_weight">Gewicht</string>
+    <string name="header_phone_use">Verwenden Sie in</string>
+    <string name="hint_blank">leer</string>
+    <string name="date_now">Jetzt</string>
+    <string name="hint_empty">Leer</string>
+    <string name="hint_day">Tag</string>
+    <string name="hint_date">Datum</string>
+    <string name="hint_datetime">Terminzeit</string>
+    <string name="hint_BPM">BPM</string>
+    <string name="hint_mmHg">mmHg</string>
+    <string name="hint_s">s</string>
+    <string name="hint_h">h</string>
+    <string name="hint_kg">kg</string>
+    <string name="hint_cm">cm</string>
+    <string name="hint_kcal">kcal</string>
+    <string name="evaluate_heart_pressure_very_bad_h">Hypertensiven Krise: Benachrichtigen Sie sofort Ihre Lieben, kontaktieren Sie die nächste medizinische Einrichtung, um Unterstützung zu erhalten
+</string>
+    <string name="evaluate_heart_pressure_bad_h2">Bluthochdruck Stufe 2: Der Zustand kann sich jederzeit verschlimmern. Bitten Sie daher Ihren Arzt, ein Diuretikum in Kombination mit einem blutdrucksenkenden Medikament zu verschreiben.
+</string>
+    <string name="evaluate_heart_pressure_bad_h1">Bluthochdruck Stufe 1: Ihr Arzt kann Ihnen zur Senkung Ihres Blutdrucks Diuretika verschreiben, und Sie müssen Ihren Lebensstil anpassen und Ihren Blutdruck regelmäßig kontrollieren.
+</string>
+    <string name="evaluate_heart_pressure_warning_h">Erhöhter Blutdruck: sollte sich hinlegen und ausruhen, tief atmen, den Körper entspannen, keinen Zucker hinzufügen, keine salzigen Speisen essen, keine Stimulanzien verwenden
+</string>
+    <string name="evaluate_heart_pressure_good">Guter Druck: lebe weiter so
+</string>
+    <string name="evaluate_heart_pressure_very_good">Sehr guter Druck: lebe weiter so</string>
+    <string name="evaluate_heart_pressure_warning_l">Niedriger Blutdruck: Begrenzen Sie die Alkoholaufnahme und erhöhen Sie die Wasseraufnahme, kontrollieren Sie die Salzaufnahme des Körpers, vermeiden Sie heiße Bäder oder Saunen</string>
+    <string name="evaluate_heart_pressure_bad_l">Krise bei niedrigem Blutdruck: Wenden Sie sich sofort zur Behandlung an das nächste medizinische Zentrum
+</string>
+    <string name="evaluate_impossible">Unmöglich: Die von Ihnen eingegebenen Daten sind ziemlich vage und es ist unwahrscheinlich, dass ein solcher Fall eintritt
+</string>
+    <string name="evaluate_heart_rate_bad_h">Herzfrequenz hoch: Bitte vermeiden Sie anstrengende Übungen und versuchen Sie gleichmäßig zu atmen
+</string>
+    <string name="evaluate_heart_rate_warning_h">Warnung bei hoher Herzfrequenz: Gib schlechte Angewohnheiten wie Rauchen, Alkohol, Genussmittel auf und trinke genug Wasser
+</string>
+    <string name="evaluate_heart_rate_normal">Herzfrequenz normal: Du bist gesund
+</string>
+    <string name="evaluate_heart_rate_good">Gute Herzfrequenz: Du bist gesund
+</string>
+    <string name="evaluate_heart_rate_warning_l">Warnung bei niedriger Herzfrequenz: Ihre Herzfrequenz zeigt Anzeichen einer Verlangsamung, Sie sollten mit dem Rauchen aufhören, salzige Lebensmittel reduzieren, fetthaltige Lebensmittel einschränken, mehr Gemüse essen eat
+</string>
+    <string name="evaluate_heart_rate_bad_l">Herzfrequenz niedrig: Sie sollten sich an Ihren Arzt wenden, um nach Medikamenten zu fragen, Ihre Angehörigen um Unterstützung bitten call
+</string>
+    <string name="evaluate_breath_very_good">Sehr gut: Du hast die Lunge eines Sportlers, übe weiter
+</string>
+    <string name="evaluate_breath_good">Gut: Deine Lunge kommt mit Druck ganz gut zurecht, mach weiter mit der Übung
+</string>
+    <string name="evaluate_breath_normal">Normal: Deine Lungen sind wie alle anderen, du solltest mehr Sport treiben, um in guter Form zu sein
+</string>
+    <string name="evaluate_breath_bad">Niedrig: Sie haben ein wenig Probleme mit Ihrer Lunge, vielleicht wegen des Körpers, aber Sie sollten Übungen ausprobieren, die körperliche Kraft erfordern, wie Joggen, Schwimmen oder Klimmzüge
+</string>
+    <string name="evaluate_breath_very_bad">Sehr schlecht: wenn Sie Probleme mit Ihrer Lunge haben, wenn Sie Schwierigkeiten beim Atmen haben, wenden Sie sich sofort an Ihren Arzt, oder es kann an Sauerstoffmangel aufgrund intensiver Aktivität liegen
+</string>
+    <string name="evaluate_bmi_very_bad_h">Übergewichtige Klasse 3: Sie sollten sofort zur Behandlung ins medizinische Zentrum gehen, Ihr Zustand ist sehr schlecht
+</string>
+    <string name="evaluate_bmi_bad_h2">Übergewichtige Klasse 2: Seien Sie beim Essen vorsichtig, da Sie höchstwahrscheinlich an Fettleber, Bluthochdruck und Diabetes leiden werden
+</string>
+    <string name="evaluate_bmi_bad_h1">Übergewichtige Klasse 1: Sie befinden sich nicht in einem gefährlichen Zustand, müssen aber auch beim Essen und Trinken wachsam sein und sollten einen Trainingsplan erstellen, um überschüssiges Fett zu reduzieren
+</string>
+    <string name="evaluate_bmi_warning_h">Übergewicht: Sie sollten erwägen, mehr Zeit mit Sport zu verbringen und eine vernünftige Ernährung aufzubauen
+</string>
+    <string name="evaluate_bmi_normal">Normal: Ihr Körper ist ziemlich moderat und sollte sich gesund ernähren und trainieren maintain
+</string>
+    <string name="evaluate_bmi_warning_l">Leichte Dünnheit: Du brauchst Nährstoffe, isst mehr Gemüse und rotes Fleisch, um Muskeln aufzubauen
+</string>
+    <string name="evaluate_bmi_bad_l1">Mäßige Dünnheit: Sie sollten Ihrer Ernährung Fett hinzufügen
+</string>
+    <string name="evaluate_bmi_bad_l2">Schwere Dünnheit: Bist du wie ein Zahnstocher, deine Ernährung ist zu schlecht, um dich dazu zu bringen, mehr Mahlzeiten am Tag zu essen und genug Schlaf zu bekommen
+</string>
+    <string name="evaluate_calories_bad_h2">Zu hoch: Sie haben zu viele Kalorien übrig, daher ist es leicht, Akne zu bekommen, also passen Sie es an
+</string>
+    <string name="evaluate_calories_bad_h1">Hoch: Du nimmst ein bisschen mehr auf als du verbrauchst, tu etwas, um es zu reduzieren
+</string>
+    <string name="evaluate_calories_warning_h">Warnung: Dein Kaloriengehalt ist zu unterschiedlich
+</string>
+    <string name="evaluate_calories_normal">Normal: genug Kalorien, um dich aktiv zu halten
+</string>
+    <string name="evaluate_calories_good">Gut: richtige Kalorienwerte für Arbeit und Aktivität
+</string>
+    <string name="evaluate_calories_warning_l">Weniger: Du nimmst ziemlich viel zu dir, also solltest du mehr Nährstoffe hinzufügen
+</string>
+    <string name="evaluate_calories_bad_l1">Zu wenig: sieht aus, als ob Sie nicht essen, sollten sofort etwas essen, um nicht ohnmächtig zu werden aufgrund von Energiemangel
+</string>
+    <string name="evaluate_sleep_very_bad_h">Schlaf zu viel: Verschlafen kann Ihre zirkadiane Zeit ruinieren, versuchen Sie, früher aufzustehen, um Ihre Stimmung zu verbessern
+</string>
+    <string name="evaluate_sleep_bad_h">Langer Schlaf: Wenn Sie zu viel schlafen, werden Sie sehr träge und können Ihre Arbeit nur schwer erledigen, also passen Sie sich an
+</string>
+    <string name="evaluate_sleep_warning_h">Langer Schlaf: Dein Schlaf ist gut genug, um 1 Tag lang zu funktionieren
+</string>
+    <string name="evaluate_sleep_normal">Normal: Sie sollten früher aufstehen, Sie sollten eine Morgengymnastik erstellen, um früher aufzuwachen
+</string>
+    <string name="evaluate_sleep_warning_l">Kurzer Schlaf: Wenn du nicht beschäftigt bist, gib mir noch 1-2 Stunden Schlaf
+</string>
+    <string name="evaluate_sleep_bad_l">Kurzer Schlaf: Wenn Ihnen das Einschlafen schwerfällt, vermeiden Sie stimulierende Lebensmittel wie Kaffee oder Kühe, schalten Sie leise Musik ein und üben Sie tiefes Atmen, damit Sie leichter einschlafen können.
+</string>
+    <string name="evaluate_sleep_very_bad_l">Kurzer Schlaf: du solltest dein Handy ausschalten und schlafen gehen, deine Schlafzeit ist wie die Anzahl der Regenfälle in der Wüste
+</string>
+    <string name="evaluate_phone_very_bad_h">Verwenden Sie zu viel: Wenn Sie kein Sklave Ihres Telefons sein möchten, schalten Sie es aus und sprechen Sie mehr mit Ihren Lieben
+</string>
+    <string name="evaluate_phone_bad_h">Verwenden Sie viel: sollte ab morgen die Zeit verkürzen und sich mehr auf externe Aktivitäten konzentrieren
+</string>
+    <string name="evaluate_phone_warning_h">Verwenden Sie viel: es scheint, dass Sie sehr von Ihrem Telefon abhängig sind, das Erlernen des Lesens von Büchern wird helfen
+</string>
+    <string name="evaluate_phone_normal">Normal: Sie verwenden mit einer ausreichenden Prognose einer Person
+</string>
+    <string name="evaluate_phone_good">Gut: du wirst nicht von deinem handy dominiert und hast ein gesundes leben, mach weiter so
+</string>
+    <string name="evaluate_period_very_bad_h">Zu lang: Dazu sollten Sie Ihren Arzt konsultieren
+</string>
+    <string name="evaluate_period_bad_h">Lang: Sie sollten einen Verwandten oder Arzt konsultieren und Tampons für den Fall bereithalten
+</string>
+    <string name="evaluate_period_warning_h">Warnung: anormal, sollte im Bedarfsfall aktiv Tampons kaufen
+</string>
+    <string name="evaluate_period_normal">Normal: Normaler Menstruationszyklus, essen Sie in Maßen und halten Sie sich in Form, um unregelmäßige Perioden zu vermeiden
+</string>
+    <string name="evaluate_period_warning_l">Warnung: Ihre Periode hat frühere Anzeichen, bitte achten Sie darauf, unerwartete Fälle zu vermeiden
+</string>
+    <string name="evaluate_period_bad_l">Kurz: Du solltest deinen Zyklus ein paar Tage früher verschieben, um besser auf dich aufzupassen
+</string>
+    <string name="evaluate_period_very_bad_l">Zu kurz: Der Menstruationszyklus ist früher als bei normalen Menschen, pass auf, dass du besser auf dich aufpassst
+</string>
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="toast_item_save_fail">Fehler: Daten des Elements nicht gültig.</string>
+    <string name="toast_item_add_success">Erfolg: Erfolg beim Hinzufügen von Gegenständen.</string>
+    <string name="toast_item_edit_success">Erfolg: Erfolg bei der Artikelbearbeitung.</string>
+    <string name="toast_item_delete_success">Erfolg: Erfolg löschen.</string>
+    <string name="dialog_evaluate_list">Listenelementwert auswerten</string>
+    <string name="dialog_general">Allgemeines</string>
+    <string name="dialog_unreliable_data">Datenzuverlässigkeit</string>
+    <string name="dialog_evaluate_fast_increase">Schneller Anstieg</string>
+    <string name="dialog_evaluate_increase">Erhöhen, ansteigen</string>
+    <string name="dialog_evaluate_low_increase">Geringer Anstieg</string>
+    <string name="dialog_evaluate_same">Gleich</string>
+    <string name="dialog_evaluate_decrease">Verringern</string>
+    <string name="dialog_from">Von</string>
+    <string name="dialog_evaluate_fast_decrease">Schneller Rückgang</string>
+    <string name="dialog_to">Zu</string>
+    <string name="dialog_predict">Vorhersagen</string>
+    <string name="dialog_recently">Vor kurzem</string>
+    <string name="month">Monat</string>
+    <string name="day">Tag</string>
+    <string name="hour">Stunde</string>
+    <string name="minute">Minute</string>
+    <string name="second">Zweite</string>
+    <string name="milis">Millisekunde</string>
+    <string name="toast_evaluate_zero">Sie haben keine Daten</string>
+    <string name="toast_statistics_all_item">Wechsel zur Statistik aller Artikel</string>
+    <string name="dialog_README_FORMAT">Datenverarbeitung mit Einheiten von %s, Vorhersage nach 10 %s.</string>
+    <string name="title_graph_all_items">Alle Elemente</string>
+    <string name="title_graph_selected_items">Ausgewählte Gegenstände</string>
+    <string name="header_bmi">BMI</string>
+    <string name="dialog_breath_test">Zeitzählung</string>
+    <string name="dialog_breath_ready">Drücken Sie OK, wenn Sie bereit sind.</string>
+    <string name="dialog_cancle">Stornieren</string>
+    <string name="input_waiting">Warten</string>
+    <string name="evaluate_calories_very_good">Fitness: Du solltest dein Training so halten
+</string>
+    <string name="wipe_data">Daten löschen</string>
+    <string name="data">Daten</string>
+    <string name="add_data_to_temp">Daten zu Temp hinzufügen</string>
+    <string name="request">Anfrage</string>
+    <string name="result">Ergebnis</string>
+    <string name="food_example">3 Eier, 100g Sandwich,...</string>
+    <string name="exercise_example">1 Stunde laufen,...</string>
+    <string name="address">Adresse</string>
+    <string name="dialog_personal_not_valid">Daten nicht gültig</string>
+    <string name="dialog_personal_back">Zurück zum Menü ohne Speicherinformationen?</string>
+    <string name="toast_you_need_create_personal_data">Sie müssen personenbezogene Daten erstellen</string>
+    <string name="toast_personal_data_save">Persönliche Daten gespeichert</string>
+    <string name="dialog_personal_data_change">Änderung der persönlichen Daten</string>
+    <string name="dialog_ask_to_save">Möchten Sie sparen?</string>
+    <string name="welcome_back">Willkommen zurück</string>
+    <string name="wrong_password">Falsches Passwort</string>
+    <string name="dialog_create_new_personal_data">Neue persönliche Daten erstellen</string>
+    <string name="dialog_ask_to_clear_data">Möchten Sie alle Daten löschen und neue erstellen?</string>
+    <string name="hint_birthday">Geburtstag</string>
+    <string name="button_birthday">Geburtstag</string>
+    <string name="year">Jahr</string>
+    <string name="days_left">Tage übrig</string>
+    <string name="happy_birthday">Alles Gute zum Geburtstag</string>
+    <string name="data_create">Daten erstellt</string>
+    <string name="ask_to_create_data">Sie möchten Testdaten erstellen?</string>
+    <string name="btn_logout">Ausloggen</string>
+</resources>
