@@ -1,5 +1,5 @@
 App kiểm tra sức khỏe hằng ngày dựa trên chỉ số người dùng muốn kiểm tra
-IDE: Android Studio 
+******  IDE: Android Studio 
 ######  Functions v3.0:
 	1. Mới cài app về sẽ ở trang cá nhân để tạo tài khoản với tên đăng nhập, mật khẩu số, ngày sinh và giới tính, sau đó nhấn nút "Trở về ứng dụng" để lưu thông tin lại, sau đó hệ thống chuyển hướng trang đăng nhập, nhập mật khẩu để nhấn "Xác nhận" để vào trang chủ.
 	2. Có 12 chức năng đối với tài khoản nam, 13 đối với tài khoản nữ.
