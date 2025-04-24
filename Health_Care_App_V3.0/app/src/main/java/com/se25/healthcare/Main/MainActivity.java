@@ -4,21 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.se25.healthcare.Access.PersonalActivity;
 import com.se25.healthcare.Access.VerifyActivity;
 import com.se25.healthcare.Menu.Components.BMI.BMIFragment;
@@ -34,11 +29,10 @@ import com.se25.healthcare.Menu.Components.Phone.PhoneFragment;
 import com.se25.healthcare.Menu.Components.Sleep.SleepFragment;
 import com.se25.healthcare.Menu.MenuFragment;
 import com.se25.healthcare.Models.Databases.LocalDatabase;
-import com.se25.healthcare.Models.Tool;
 import com.se25.healthcare.R;
+import com.se25.healthcare.Menu.Components.News.NewsFragment;
 
-import java.time.LocalDateTime;
-import java.util.concurrent.atomic.AtomicBoolean;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -166,12 +160,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 fragment = new ExerciseFragment();
                 break;
             case R.string.button_news:
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://suckhoedoisong.vn/"));
-                if (browserIntent.resolveActivity(getPackageManager()) != null) {
-                    startActivity(browserIntent);
-                } else {
-                    showMessage(R.string.toast_fail);
-                }
+                setLoading(R.drawable.newspaper);
+                fragment = new Fragment();
                 break;
             case R.string.button_doctor:
                 fragment = new DoctorFragment();

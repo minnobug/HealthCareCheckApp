@@ -1,265 +1,250 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Health Care</string>
-    <!--Action Bar-->
-    <string name="todo_action_home">Back To Menu</string>
-    <string name="todo_action_setting">Open Settings</string>
-    <string name="title_menu">Menu</string>
-    <!--Access-->
-    <!--====Verify-->
-    <string name="hint_hello">Welcome Back</string>
-    <string name="hint_password">Enter Password</string>
-    <string name="hint_username">Enter Username</string>
-    <string name="button_verify">Verify</string>
-    <!--====Personal-->
-    <string name="title_personal">Personal</string>
-    <string name="card_user">User Card</string>
+    <string name = "app_name"> Chăm sóc sức khỏe </string>
+    <string name = "todo_action_home"> Quay lại Trình đơn </string>
+    <string name = "todo_action_setting"> Mở Cài đặt </string>
+    <string name = "title_menu"> Trình đơn </string>
+    <string name = "hint_hello"> Chào mừng bạn trở lại </string>
+    <string name = "hint_password"> Nhập mật khẩu </string>
+    <string name = "hint_username"> Nhập Tên người dùng </string>
+    <string name = "button_verify"> Xác minh </string>
+    <string name = "title_personal"> Cá nhân </string>
+    <string name = "card_user"> Thẻ người dùng </string>
     <string name="card_gender">Gender</string>
     <string name="male_gender">Male</string>
     <string name="female_gender">Female</string>
-    <string name="button_backtoapp">Back To App</string>
-    <!--Main-->
-    <string name="toast_testing">This component is not available yet.</string>
-    <string name="button_news">Newspaper</string>
-    <string name="button_smartwatch">Connect Smart Watch</string>
-    <string name="button_doctor">Contact Doctor</string>
-    <string name="button_heart">Heart Care</string>
-    <string name="button_breath">Breath Care</string>
-    <string name="button_BMI">BMI Care</string>
-    <string name="button_calories">Calories Care</string>
-    <string name="button_food">Food Search</string>
-    <string name="button_exercise">Exercise Search</string>
-    <string name="button_sleep">Sleep Care</string>
-    <string name="button_phone">Phone Control</string>
-    <string name="button_period">Period Care</string>
+    <string name = "button_backtoapp"> Quay lại ứng dụng </string>
+    <string name = "toast_testing"> Chưa có thành phần này. </string>
+    <string name="button_news">Tin tức</string>
+    <string name = "button_smartwatch"> Kết nối Đồng hồ thông minh </string>
+    <string name = "button_doctor"> Support </string>
+    <string name = "button_heart"> Heart Care </string>
+    <string name = "button_breath"> Chăm sóc Hơi thở </string>
+    <string name = "button_BMI"> BMI Care </string>
+    <string name = "button_calories"> Chăm sóc calo </string>
+    <string name = "button_food"> Tìm kiếm Thực phẩm </string>
+    <string name = "button_exercise"> Tìm kiếm Bài tập </string>
+    <string name = "button_sleep"> Chăm sóc Giấc ngủ </string>
+    <string name = "button_phone"> Điều khiển điện thoại </string>
+    <string name = "button_period"> Chăm sóc định kỳ </string>
 
-    <!--Components-->
-    <string name="toast_not_select_fail">Fail: you need to select something first.</string>
-    <string name="evaluate_fail">Fail: data is not valid.</string>
-    <string name="toast_fail">Fail: something went wrong.</string>
-    <string name="toast_delete_fail_not_select">Fail: you need to select an item</string>
-    <string name="toast_success">Success: </string>
-    <string name="dialog_evaluate_one">Evaluate Item Value</string>
-    <string name="dialog_okay">Okay</string>
-    <string name="form_title_add">Add Form</string>
-    <string name="form_title_edit">Edit Form</string>
-    <string name="button_save">Save</string>
-    <string name="button_changegraph">Change Graph</string>
-    <string name="button_edit">Edit</string>
-    <string name="button_stopedit">Stop Edit</string>
-    <string name="button_delete">Delete</string>
-    <string name="button_evaluate">Evaluate</string>
-    <string name="button_statistics">Statistics</string>
-    <string name="header_item1">Item 1</string>
-    <string name="header_item2">Item 2</string>
-    <string name="header_item3">Item 3</string>
-    <string name="hint_item1">hint item 1</string>
-    <string name="hint_item2">hint item 2</string>
-    <string name="hint_item3">hint item 3</string>
+    <string name = "toast_not_select_fail"> Không đạt: trước tiên bạn cần chọn một cái gì đó. </string>
+    <string name = "evaluate_fail"> Fail: dữ liệu không hợp lệ. </string>
+    <string name = "toast_fail"> Fail: đã xảy ra lỗi. </string>
+    <string name = "toast_delete_fail_not_select"> Không đạt: bạn cần chọn một mục </string>
+    <string name = "toast_success"> Thành công: </string>
+    <string name = "dialog_evaluate_one"> Đánh giá giá trị vật phẩm </string>
+    <string name = "dialog_okay"> Được rồi </string>
+    <string name = "form_title_add"> Thêm biểu mẫu </string>
+    <string name = "form_title_edit"> Chỉnh sửa biểu mẫu </string>
+    <string name = "button_save"> Lưu </string>
+    <string name = "button_changegraph"> Thay đổi đồ thị </string>
+    <string name = "button_edit"> Chỉnh sửa </string>
+    <string name = "button_stopedit"> Dừng Chỉnh sửa </string>
+    <string name = "button_delete"> Xóa </string>
+    <string name = "button_evaluate"> Đánh giá </string>
+    <string name = "button_statistics"> Thống kê </string>
+    <string name = "header_item1"> Mặt hàng 1 </string>
+    <string name = "header_item2"> Mặt hàng 2 </string>
+    <string name = "header_item3"> Mặt hàng 3 </string>
+    <string name = "hint_item1"> gợi ý mục 1 </string>
+    <string name = "hint_item2"> gợi ý mục 2 </string>
+    <string name = "hint_item3"> gợi ý mục 3 </string>
 
-    <string name="title_form">Form</string>
-    <string name="title_list">List</string>
-    <string name="title_graph">Graph</string>
-    <string name="header_date_create">Date Create</string>
-    <string name="header_heart_rate">Heart Rate</string>
-    <string name="header_heart_pressure">Heart Pressure</string>
-    <string name="header_breath_hold">Breath Hold</string>
-    <string name="header_calories_in">Calories in</string>
-    <string name="header_calories_out">Calories out</string>
-    <string name="header_sleep_time">Sleep time</string>
-    <string name="header_wake_up_time">Wake up time</string>
-    <string name="header_period_start">Period start</string>
-    <string name="header_height">Height</string>
-    <string name="header_weight">Weight</string>
-    <string name="header_phone_use">Use in</string>
-    <string name="hint_blank">blank</string>
-    <string name="date_now">Now</string>
+    <string name = "title_form"> Biểu mẫu </string>
+    <string name = "title_list"> Danh sách </string>
+    <string name = "title_graph"> Biểu đồ </string>
+    <string name = "header_date_create"> Ngày tạo </string>
+    <string name = "header_heart_rate"> Nhịp tim </string>
+    <string name = "header_heart_pressure"> Áp suất tim </string>
+    <string name = "header_breath_hold"> Giữ hơi thở </string>
+    <string name = "header_calories_in"> Lượng calo tính bằng </string>
+    <string name = "header_calories_out"> Lượng calo hết </string>
+    <string name = "header_sleep_time"> Thời gian ngủ </string>
+    <string name = "header_wake_up_time"> Thời gian thức dậy </string>
+    <string name = "header_period_start"> Thời gian bắt đầu </string>
+    <string name = "header_height"> Chiều cao </string>
+    <string name = "header_weight"> Trọng lượng </string>
+    <string name = "header_phone_use"> Sử dụng trong </string>
+    <string name = "hint_blank"> blank </string>
+    <string name = "date_now"> Hiện tại </string>
 
-    <string name="hint_empty" >Empty</string>
-    <string name="hint_day">Day</string>
-    <string name="hint_date">Date</string>
-    <string name="hint_datetime">Date Time</string>
-    <string name="hint_BPM">BPM</string>
-    <string name="hint_mmHg">mmHg</string>
-    <string name="hint_s">s</string>
-    <string name="hint_h">h</string>
-    <string name="hint_kg">kg</string>
-    <string name="hint_cm">cm</string>
-    <string name="hint_kcal">kcal</string>
-    <!--Heart Pressure-->
-    <string name="evaluate_heart_pressure_very_bad_h">Hypertensive crisis: Immediately notify your loved ones, contact the nearest medical facility for support</string>
-    <string name="evaluate_heart_pressure_bad_h2">Hypertension stage 2: The condition can get worse at any time, so ask your doctor to prescribe a diuretic in combination with an antihypertensive drug.</string>
-    <string name="evaluate_heart_pressure_bad_h1">Hypertension stage 1: Your doctor may prescribe diuretics to lower your blood pressure and you need to adjust your lifestyle and regularly control your blood pressure.</string>
-    <string name="evaluate_heart_pressure_warning_h">Hypertension Warning: should lie down to rest, breathe deeply, relax the body, do not add sugar, do not eat salty foods, do not use stimulants</string>
-    <string name="evaluate_heart_pressure_good">Good pressure: keep living like this</string>
-    <string name="evaluate_heart_pressure_very_good">Very Good pressure: keep living like this</string>
-    <string name="evaluate_heart_pressure_warning_l">Low blood pressure: limit alcohol intake and increase water intake, control body salt intake, avoid hot baths or saunas</string>
-    <string name="evaluate_heart_pressure_bad_l">Low blood pressure crisis: Immediately contact the nearest medical center for treatment
+    <string name = "hint_empty"> Rỗng </string>
+    <string name = "hint_day"> Ngày </string>
+    <string name = "hint_date"> Ngày </string>
+    <string name = "hint_datetime"> Ngày giờ </string>
+    <string name = "hint_BPM"> BPM </string>
+    <string name = "hint_mmHg"> mmHg </string>
+    <string name = "hint_s"> s </string>
+    <string name = "hint_h"> h </string>
+    <string name = "hint_kg"> kg </string>
+    <string name = "hint_cm"> cm </string>
+    <string name = "hint_kcal"> kcal </string>
+    <string name = "evaluate_heart_pressure_very_bad_h"> Khủng hoảng tăng huyết áp: Thông báo ngay cho người thân, liên hệ cơ sở y tế gần nhất để được hỗ trợ </string>
+    <string name = "evaluate_heart_pressure_bad_h2"> Tăng huyết áp giai đoạn 2: Tình trạng bệnh có thể trở nên tồi tệ hơn bất cứ lúc nào, vì vậy hãy yêu cầu bác sĩ kê đơn thuốc lợi tiểu kết hợp với thuốc hạ huyết áp. </string>
+    <string name = "evaluate_heart_pressure_bad_h1"> Tăng huyết áp giai đoạn 1: Bác sĩ có thể kê đơn thuốc lợi tiểu để giảm huyết áp và bạn cần điều chỉnh lối sống và thường xuyên kiểm soát huyết áp của mình. </string>
+    <string name = "evaluate_heart_pressure_warning_h"> Tăng huyết áp Cảnh báo: nên nằm nghỉ ngơi, hít thở sâu, thả lỏng cơ thể, không thêm đường, không ăn mặn, không dùng chất kích thích </string>
+    <string name = "evaluate_heart_pressure_good"> Áp lực tốt: hãy tiếp tục sống như thế này </string>
+    <string name = "evaluate_heart_pressure_very_good"> Áp lực rất tốt: hãy tiếp tục sống như thế này </string>
+    <string name = "evaluate_heart_pressure_warning_l"> Huyết áp thấp: hạn chế uống rượu và tăng lượng nước, kiểm soát lượng muối nạp vào cơ thể, tránh tắm nước nóng hoặc xông hơi </string>
+    <string name = "evaluate_heart_pressure_bad_l"> Khủng hoảng huyết áp thấp: Liên hệ ngay với trung tâm y tế gần nhất để được điều trị
 </string>
-    <string name="evaluate_impossible">Impossible: The data you entered is quite vague and it is unlikely that such a case will happen
+    <string name = "evaluate_impossible"> Không thể: Dữ liệu bạn nhập khá mơ hồ và khó có khả năng xảy ra trường hợp như vậy
 </string>
-    <!--Heart Rate-->
-    <string name="evaluate_heart_rate_bad_h">Heart Rate High: Please avoid vigorous exercise and try to breathe evenly
+    <string name = "evaluate_heart_rate_bad_h"> Nhịp tim cao: Vui lòng tránh vận động mạnh và cố gắng thở đều
 </string>
-    <string name="evaluate_heart_rate_warning_h">Heart Rate High Warning: Give up bad habits such as smoking, alcohol, using stimulants and drink enough water
+    <string name = "evaluate_heart_rate_warning_h"> Nhịp tim Cảnh báo cao: Từ bỏ các thói quen xấu như hút thuốc, rượu bia, sử dụng chất kích thích và uống đủ nước
 </string>
-    <string name="evaluate_heart_rate_normal">Heart Rate Normal: you are healthy
+    <string name = "evaluate_heart_rate_normal"> Nhịp tim Bình thường: bạn khỏe mạnh
 </string>
-    <string name="evaluate_heart_rate_good">Good Heart Rate: you are healthy
+    <string name = "evaluate_heart_rate_good"> Nhịp tim tốt: bạn khỏe mạnh
 </string>
-    <string name="evaluate_heart_rate_warning_l">Heart Rate Low Warning: Your heart rate shows signs of slowing down, you should quit smoking, reduce salty foods, limit fatty foods, eat more vegetables
+    <string name = "evaluate_heart_rate_warning_l"> Nhịp tim Thấp Cảnh báo: Nhịp tim có dấu hiệu chậm lại, bạn nên bỏ thuốc lá, giảm ăn mặn, hạn chế ăn nhiều dầu mỡ, ăn nhiều rau củ quả
 </string>
-    <string name="evaluate_heart_rate_bad_l">Heart Rate Low: You should contact your doctor to ask for medicine, call your relatives for support
+    <string name = "evaluate_heart_rate_bad_l"> Nhịp tim Thấp: Bạn nên liên hệ với bác sĩ để xin thuốc, gọi cho người thân để được hỗ trợ
 </string>
 
-    <!--Hold Breath-->
-    <string name="evaluate_breath_very_good">Very Good: you have the lungs of an athlete, keep practicing
+    <string name = "evaluate_breath_very_good"> Rất tốt: bạn có lá phổi của một vận động viên, hãy tiếp tục luyện tập
 </string>
-    <string name="evaluate_breath_good">Good: Your lungs can handle pressure quite well, keep up the exercise
+    <string name = "evaluate_breath_good"> Tốt: Phổi của bạn có thể xử lý áp lực khá tốt, hãy tiếp tục tập luyện
 </string>
-    <string name="evaluate_breath_normal">Normal: Your lungs are like everyone else, you should exercise more to be in good shape
+    <string name = "evaluate_breath_normal"> Bình thường: Phổi của bạn cũng giống như mọi người, bạn nên tập thể dục nhiều hơn để có thể trạng tốt
 </string>
-    <string name="evaluate_breath_bad">Low: you have a little trouble with your lungs, maybe because of the body, but you should try exercises that require physical strength such as jogging, swimming or pull-ups
+    <string name = "evaluate_breath_bad"> Thấp: bạn gặp một chút rắc rối về phổi, có thể do cơ thể, nhưng bạn nên thử các bài tập đòi hỏi thể lực như chạy bộ, bơi lội hoặc kéo xà đơn
 </string>
-    <string name="evaluate_breath_very_bad">Very Bad: you have problems with your lungs, if you find it difficult to breathe, contact your doctor immediately, or it may be because you are lacking oxygen due to intense activity
-</string>
-
-    <!--BMI-->
-    <string name="evaluate_bmi_very_bad_h">Obese class 3: you should go to the medical center for treatment right away, your condition is very bad
-</string>
-    <string name="evaluate_bmi_bad_h2">Obese class 2: Be careful in eating because you will most likely have fatty liver, high blood pressure, diabetes
-</string>
-    <string name="evaluate_bmi_bad_h1">Obese class 1: You are not in a dangerous state, but you must also be vigilant in eating and drinking and should build an exercise schedule to reduce excess fat
-</string>
-    <string name="evaluate_bmi_warning_h">Overweight: You should consider spending more time exercising and building a reasonable diet
-</string>
-    <string name="evaluate_bmi_normal">Normal: your body is quite moderate and should maintain a healthy diet, plus exercise
-</string>
-    <string name="evaluate_bmi_warning_l">Mild Thinness: you need nutrients, eat more vegetables and red meat to build muscle
-</string>
-    <string name="evaluate_bmi_bad_l1">Moderate Thinness: You should add fat to your diet
-</string>
-    <string name="evaluate_bmi_bad_l2">Severe Thinness: You look like a toothpick, your diet is too poor to make you like that, eat more meals a day and get enough sleep
-</string>
-    <!--Calories in Day-->
-    <string name="evaluate_calories_bad_h2">Too high: you have too many calories left over, so it\'s easy to get acne, so adjust it
-</string>
-    <string name="evaluate_calories_bad_h1">High: you take in a bit more than you consume, do something to reduce it
-</string>
-    <string name="evaluate_calories_warning_h">Warning: Your calorie level is too different
-</string>
-    <string name="evaluate_calories_normal">Normal: enough calories to keep you active
-</string>
-    <string name="evaluate_calories_good">Good: proper calorie levels for work and activity
-</string>
-    <string name="evaluate_calories_warning_l">Less: You take in quite a bit, so you should add more nutrients
-</string>
-    <string name="evaluate_calories_bad_l1">Too less: looks like you are not eating, should eat something right away to avoid fainting due to lack of energy
+    <string name = "evaluate_breath_very_bad"> Rất tệ: bạn có vấn đề về phổi, nếu bạn cảm thấy khó thở, hãy liên hệ với bác sĩ ngay lập tức, hoặc có thể do bạn đang thiếu oxy do hoạt động cường độ cao
 </string>
 
-    <!--Sleep Time in Day-->
-    <string name="evaluate_sleep_very_bad_h">Sleep too much: Oversleeping can ruin your circadian time, try to get up earlier to improve your spirit
+    <string name = "evaluate_bmi_very_bad_h"> Béo phì độ 3: bạn nên đến trung tâm y tế để điều trị ngay, tình trạng của bạn rất nặng
 </string>
-    <string name="evaluate_sleep_bad_h">Long sleep: Sleeping too much will make you very sluggish and difficult to complete your work, so adjust
+    <string name = "evaluate_bmi_bad_h2"> Béo phì hạng 2: Cẩn thận trong ăn uống vì rất có thể bạn sẽ bị gan nhiễm mỡ, cao huyết áp, tiểu đường
 </string>
-    <string name="evaluate_sleep_warning_h">Long sleep: Your sleep is good enough to function for 1 day
+    <string name = "evaluate_bmi_bad_h1"> Béo phì hạng 1: Bạn chưa ở trạng thái nguy hiểm nhưng cũng phải cảnh giác trong ăn uống và nên xây dựng lịch tập thể dục để giảm mỡ thừa
 </string>
-    <string name="evaluate_sleep_normal">Normal: You should wake up earlier, you should create a morning exercise routine to wake up earlier
+    <string name = "evaluate_bmi_warning_h"> Thừa cân: Bạn nên cân nhắc dành nhiều thời gian hơn để tập thể dục và xây dựng chế độ ăn uống hợp lý
 </string>
-    <string name="evaluate_sleep_warning_l">Short sleep: If you\'re not busy, give me another 1-2 hours to sleep
+    <string name = "evaluate_bmi_normal"> Bình thường: cơ thể bạn khá vừa phải và nên duy trì chế độ ăn uống lành mạnh, cộng với tập thể dục
 </string>
-    <string name="evaluate_sleep_bad_l">Short sleep: If you find it difficult to fall asleep, avoid stimulant foods such as coffee or cows, turn on soft music and practice deep breathing to help you fall asleep more easily.
+    <string name = "evaluate_bmi_warning_l"> Gầy nhẹ: bạn cần chất dinh dưỡng, ăn nhiều rau và thịt đỏ để xây dựng cơ bắp
 </string>
-    <string name="evaluate_sleep_very_bad_l">Short sleep: you should turn off your phone and go to sleep, your sleep time is like the number of times it rains in the desert
+    <string name = "evaluate_bmi_bad_l1"> Gầy vừa phải: Bạn nên thêm chất béo vào chế độ ăn uống của mình
+</string>
+    <string name = "evaluate_bmi_bad_l2"> Gầy nặng: Trông bạn như que tăm, chế độ ăn quá nghèo nàn khiến bạn như vậy, hãy ăn nhiều bữa hơn và ngủ đủ giấc
+</string>
+    <string name = "evaluate_calories_bad_h2"> Quá cao: bạn còn thừa quá nhiều calo nên rất dễ nổi mụn, vì vậy hãy điều chỉnh lại
+</string>
+    <string name = "evaluate_calories_bad_h1"> Cao: bạn tiêu thụ nhiều hơn một chút, hãy làm gì đó để giảm bớt
+</string>
+    <string name = "evaluate_calories_warning_h"> Cảnh báo: Mức calo của bạn quá khác biệt
+</string>
+    <string name = "evaluate_calories_normal"> Bình thường: đủ calo để duy trì hoạt động của bạn
+</string>
+    <string name = "evaluate_calories_good"> Tốt: mức calo thích hợp cho công việc và hoạt động
+</string>
+    <string name = "evaluate_calories_warning_l"> Ít hơn: Bạn nạp vào cơ thể khá ít, vì vậy bạn nên bổ sung thêm chất dinh dưỡng
+</string>
+    <string name = "evaluate_calories_bad_l1"> Quá ít: có vẻ như bạn đang không ăn, nên ăn gì đó ngay để tránh bị ngất do thiếu năng lượng
 </string>
 
-    <!--Phone use time in Day-->
-    <string name="evaluate_phone_very_bad_h">Use too much: If you don\'t want to be a slave to your phone, turn it off and talk to your loved ones more
+    <string name = "evaluate_sleep_very_bad_h"> Ngủ quá nhiều: Ngủ quá nhiều có thể làm hỏng thời gian sinh học của bạn, hãy cố gắng dậy sớm hơn để cải thiện tinh thần
 </string>
-    <string name="evaluate_phone_bad_h">Use much: should reduce the time to use from tomorrow and focus on outside activities more
+    <string name = "evaluate_sleep_bad_h"> Ngủ lâu: Ngủ quá nhiều sẽ khiến bạn rất uể oải và khó hoàn thành công việc, vì vậy hãy điều chỉnh
 </string>
-    <string name="evaluate_phone_warning_h">Use much: it seems that you depend on your phone a lot, learn to read books, it will be very helpful
+    <string name = "evaluate_sleep_warning_h"> Ngủ dài: Giấc ngủ của bạn đủ ngon để hoạt động trong 1 ngày
 </string>
-    <string name="evaluate_phone_normal">Normal: you use with a sufficient prognosis of a person
+    <string name = "evaluate_sleep_normal"> Bình thường: Bạn nên dậy sớm hơn, nên tạo thói quen tập thể dục buổi sáng để dậy sớm hơn
 </string>
-    <string name="evaluate_phone_good">Good: you are not dominated by your phone and have a healthy life, keep up the good work
+    <string name = "evaluate_sleep_warning_l"> Ngủ ngắn: Nếu bạn không bận, hãy cho tôi ngủ thêm 1-2 giờ nữa
+</string>
+    <string name = "evaluate_sleep_bad_l"> Giấc ngủ ngắn: Nếu bạn cảm thấy khó đi vào giấc ngủ, hãy tránh những thức ăn có chất kích thích như cà phê hoặc bò, bật nhạc nhẹ và tập thở sâu để giúp bạn dễ đi vào giấc ngủ hơn.
+</string>
+    <string name = "evaluate_sleep_very_bad_l"> Giấc ngủ ngắn: bạn nên tắt điện thoại và đi ngủ, thời gian ngủ của bạn giống như số lần trời mưa trên sa mạc
 </string>
 
-    <!--Period-->
-    <string name="evaluate_period_very_bad_h">Too Long: You should consult your doctor about this
+    <string name = "evaluate_phone_very_bad_h"> Sử dụng quá nhiều: Nếu bạn không muốn trở thành nô lệ cho điện thoại của mình, hãy tắt nó đi và nói chuyện với những người thân yêu của bạn nhiều hơn
 </string>
-    <string name="evaluate_period_bad_h">Long: You should consult a relative or doctor and have tampons ready in case
+    <string name = "evaluate_phone_bad_h"> Sử dụng nhiều: nên giảm thời gian sử dụng từ ngày mai và tập trung vào các hoạt động bên ngoài hơn
 </string>
-    <string name="evaluate_period_warning_h">Warning: abnormal, should actively buy tampons in case of need
+    <string name = "evaluate_phone_warning_h"> Dùng nhiều: có vẻ như bạn phụ thuộc vào điện thoại nhiều, hãy học cách đọc sách, sẽ rất hữu ích
 </string>
-    <string name="evaluate_period_normal">Normal: Normal menstrual cycle, eat in moderation and keep in good shape to avoid irregular periods
+    <string name = "evaluate_phone_normal"> Bình thường: bạn sử dụng với tiên lượng đầy đủ về một người
 </string>
-    <string name="evaluate_period_warning_l">Warning: your period has signs of earlier, please pay attention to avoid unexpected cases
+    <string name = "evaluate_phone_good"> Tốt: bạn không bị điện thoại chi phối và có một cuộc sống lành mạnh, tiếp tục công việc tốt
 </string>
-    <string name="evaluate_period_bad_l">Short: You should delay your cycle a few days early to take better care of yourself
+
+    <string name = "evaluate_period_very_bad_h"> Quá dài: Bạn nên hỏi ý kiến ​​bác sĩ về điều này
 </string>
-    <string name="evaluate_period_very_bad_l">Too Short: Menstrual cycle is earlier than normal people, be careful to take better care of yourself
+    <string name = "evaluate_period_bad_h"> Dài: Bạn nên hỏi ý kiến ​​người thân hoặc bác sĩ và chuẩn bị sẵn băng vệ sinh để phòng trường hợp
 </string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="toast_item_save_fail">Fail: data of item not valid.</string>
-    <string name="toast_item_add_success">Success: Item add success.</string>
-    <string name="toast_item_edit_success">Success: Item edit success.</string>
-    <string name="toast_item_delete_success">Success: delete success.</string>
-    <string name="dialog_evaluate_list">Evaluate List Item Value</string>
-    <string name="dialog_general">General</string>
-    <string name="dialog_unreliable_data">Data Reliability</string>
-    <string name="dialog_evaluate_fast_increase">Fast increase</string>
-    <string name="dialog_evaluate_increase">Increase</string>
-    <string name="dialog_evaluate_low_increase">Low increase</string>
-    <string name="dialog_evaluate_same">Same</string>
-    <string name="dialog_evaluate_decrease">Decrease</string>
-    <string name="dialog_from">From</string>
-    <string name="dialog_evaluate_fast_decrease">Fast decrease</string>
-    <string name="dialog_to">To</string>
-    <string name="dialog_predict">Predict</string>
-    <string name="dialog_recently">Recently</string>
-    <string name="month">Month</string>
-    <string name="day">Day</string>
-    <string name="hour">Hour</string>
-    <string name="minute">Minute</string>
-    <string name="second">Second</string>
-    <string name="milis">Milisecond</string>
-    <string name="toast_evaluate_zero">You have no data</string>
-    <string name="toast_statistics_all_item">Change to statistics of all items</string>
-    <string name="dialog_README_FORMAT">Data processing with units of %s, prediction after 10 %s.</string>
-    <string name="title_graph_all_items">All Items</string>
-    <string name="title_graph_selected_items">Selected Items</string>
-    <string name="header_bmi">BMI</string>
+    <string name = "evaluate_period_warning_h"> Cảnh báo: bất thường, nên chủ động mua băng vệ sinh phòng trường hợp cần thiết
+</string>
+    <string name = "evaluate_period_normal"> Bình thường: Chu kỳ kinh nguyệt bình thường, ăn uống điều độ và giữ dáng để tránh kinh nguyệt không đều
+</string>
+    <string name = "evaluate_period_warning_l"> Cảnh báo: kỳ kinh của bạn có dấu hiệu sớm hơn, hãy chú ý để tránh những trường hợp không mong muốn
+</string>
+    <string name = "evaluate_period_bad_l"> Ngắn: Bạn nên trì hoãn chu kỳ sớm vài ngày để chăm sóc bản thân tốt hơn
+</string>
+    <string name = "evaluate_period_very_bad_l"> Quá Ngắn: Chu kỳ kinh nguyệt đến sớm hơn người bình thường, hãy chú ý chăm sóc bản thân tốt hơn
+</string>
+    <string name = "hello_blank_fragment"> Xin chào phân đoạn trống </string>
+    <string name = "toast_item_save_fail"> Không thành công: dữ liệu của mục không hợp lệ. </string>
+    <string name = "toast_item_add_success"> Thành công: Thêm mặt hàng thành công. </string>
+    <string name = "toast_item_edit_success"> Thành công: Chỉnh sửa mục thành công. </string>
+    <string name = "toast_item_delete_success"> Thành công: xóa thành công. </string>
+    <string name = "dialog_evaluate_list"> Đánh giá giá trị mục trong danh sách </string>
+    <string name = "dialog_general"> Chung </string>
+    <string name = "dialog_unreliable_data"> Độ tin cậy của dữ liệu </string>
+    <string name = "dialog_evaluate_fast_increase"> Tăng nhanh </string>
+    <string name = "dialog_evaluate_increase"> Tăng </string>
+    <string name = "dialog_evaluate_low_increase"> Mức tăng thấp </string>
+    <string name = "dialog_evaluate_same"> Giống nhau </string>
+    <string name = "dialog_evaluate_decrease"> Giảm </string>
+    <string name = "dialog_from"> Từ </string>
+    <string name = "dialog_evaluate_fast_decrease"> Giảm nhanh </string>
+    <string name = "dialog_to"> Tới </string>
+    <string name = "dialog_predict"> Dự đoán </string>
+    <string name = "dialog_recently"> Gần đây </string>
+    <string name = "month"> Tháng </string>
+    <string name = "day"> Ngày </string>
+    <string name = "hour"> Giờ </string>
+    <string name = "minute"> Phút </string>
+    <string name = "second"> Thứ hai </string>
+    <string name = "milis"> Milisecond </string>
+    <string name = "toast_evaluate_zero"> Bạn không có dữ liệu </string>
+    <string name = "toast_statistics_all_item"> Thay đổi thành thống kê của tất cả các mục </string>
+    <string name = "dialog_README_FORMAT"> Xử lý dữ liệu với đơn vị% s, dự đoán sau 10% s. </string>
+    <string name = "title_graph_all_items"> Tất cả các mục </string>
+    <string name = "title_graph_selected_items"> Các mặt hàng đã chọn </string>
+    <string name = "header_bmi"> BMI </string>
     <string name="dialog_breath_test">Time Count</string>
     <string name="dialog_breath_ready">Press okay when you are ready.</string>
     <string name="dialog_cancle">Cancel</string>
     <string name="input_waiting">Waiting</string>
-    <string name="evaluate_calories_very_good">fit: You should keep your workout regimen like this
+    <string name="evaluate_calories_very_good">phù hợp: Bạn nên duy trì chế độ tập luyện của mình như thế này
 </string>
-    <string name="wipe_data">Wipe Data</string>
-    <string name="data">Data</string>
-    <string name="add_data_to_temp">Add data to temp</string>
-    <string name="request">Request</string>
-    <string name="result">Result</string>
-    <string name="food_example">3 eggs, 100g sandwich,...</string>
-    <string name="exercise_example">1 hour running,...</string>
-    <string name="address">Address</string>
-    <string name="dialog_personal_not_valid">Data not valid</string>
-    <string name="dialog_personal_back">Back to menu without save information?</string>
-    <string name="toast_you_need_create_personal_data">You need to create personal data</string>
-    <string name="toast_personal_data_save">Personal data saved</string>
-    <string name="dialog_personal_data_change">Personal data change</string>
-    <string name="dialog_ask_to_save">Do you want to save?</string>
-    <string name="welcome_back">Welcome back</string>
+    <string name = "wipe_data"> Xóa dữ liệu </string>
+    <string name = "data"> Dữ liệu </string>
+    <string name = "add_data_to_temp"> Thêm dữ liệu vào tạm thời </string>
+    <string name = "request"> Yêu cầu </string>
+    <string name = "result"> Kết quả </string>
+    <string name = "food_example"> nhập vào đây, ... </string>
+    <string name = "exercise_example"> nhập vào đây, ... </string>
+    <string name = "address"> Địa chỉ </string>
+    <string name = "dialog_personal_not_valid"> Dữ liệu không hợp lệ </string>
+    <string name = "dialog_personal_back"> Quay lại trình đơn mà không lưu thông tin? </string>
+    <string name = "toast_you_need_create_personal_data"> Bạn cần tạo dữ liệu cá nhân </string>
+    <string name = "toast_personal_data_save"> Dữ liệu cá nhân được lưu </string>
+    <string name = "dialog_personal_data_change"> Thay đổi dữ liệu cá nhân </string>
+    <string name = "dialog_ask_to_save"> Bạn có muốn lưu không? </string>
+    <string name = "welcome_back"> Chào mừng bạn trở lại </string>
     <string name="wrong_password">Wrong password</string>
-    <string name="dialog_create_new_personal_data">Create new personal data</string>
-    <string name="dialog_ask_to_clear_data">Do you want to delete all data and create new one?</string>
-    <string name="hint_birthday">Birthday</string>
-    <string name="button_birthday">Birthday</string>
-    <string name="year">Year</string>
-    <string name="days_left">Days Left</string>
-    <string name="happy_birthday">Happy Birthday</string>
-    <string name="data_create">Data created</string>
-    <string name="ask_to_create_data">Do you want to create test data?</string>
-    <string name="btn_logout">Logout</string>
+    <string name = "dialog_create_new_personal_data"> Tạo dữ liệu cá nhân mới </string>
+    <string name = "dialog_ask_to_clear_data"> Bạn có muốn xóa tất cả dữ liệu và tạo dữ liệu mới không? </string>
+    <string name = "hint_birthday"> Sinh nhật </string>
+    <string name = "button_birthday"> Sinh nhật </string>
+    <string name = "year"> Năm </string>
+    <string name = "days_left"> Ngày còn lại </string>
+    <string name = "happy_birthday"> Chúc mừng sinh nhật </string>
+    <string name = "data_create"> Dữ liệu đã được tạo </string>
+    <string name = "ask_to_create_data"> Bạn có muốn tạo dữ liệu thử nghiệm không? </string>
+    <string name = "btn_logout"> Đăng xuất </string>
 </resources>

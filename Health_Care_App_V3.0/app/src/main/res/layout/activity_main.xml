@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_height="match_parent">
+
+    <!-- Action Bar -->
     <RelativeLayout
         android:id="@+id/rlActionBar"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:padding="10dp">
+
         <ImageView
             android:id="@+id/imgVwActionIcon"
             android:src="@drawable/button_app_icon"
@@ -17,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/todo_action_home" />
+
         <TextView
             android:id="@+id/txtVwActionTitle"
             android:layout_centerInParent="true"
@@ -26,6 +30,7 @@
             android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="RelativeOverlap" />
+
         <ImageView
             android:id="@+id/imgVwActionSettings"
             android:src="@drawable/settings"
@@ -38,15 +43,21 @@
             android:contentDescription="@string/todo_action_setting"/>
     </RelativeLayout>
 
+    <!-- Nội dung chính -->
     <RelativeLayout
         android:id="@+id/rlContent"
         android:layout_below="@id/rlActionBar"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!-- WebView phải đặt trong đây -->
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </RelativeLayout>
 
-
+    <!-- Loading Screen -->
     <RelativeLayout
         android:id="@+id/rlLoading"
         android:layout_width="match_parent"
@@ -54,13 +65,15 @@
         android:layout_centerInParent="true"
         android:clickable="false"
         android:background="@color/white"
-        android:visibility="visible">
+        android:visibility="gone">
+
         <ProgressBar
             android:id="@+id/progressBar"
             style="?android:attr/progressBarStyle"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_centerInParent="true"/>
+
         <ImageView
             android:id="@+id/imgVwIcon"
             android:src="@drawable/app_icon"
@@ -69,4 +82,5 @@
             android:layout_width="80dp"
             android:layout_height="80dp"/>
     </RelativeLayout>
+
 </RelativeLayout>

@@ -1,12 +1,12 @@
 package com.se25.healthcare.Menu.Components.DoctorContact;
 
 public class Doctor {
-    private String name, phone, address;
+    private String name, phone;
 
-    public Doctor(String name, String phone, String address) {
+    public Doctor(String name, String phone) {
         this.name = name;
         this.phone = phone;
-        this.address = address;
+
     }
 
     public String getName() {
@@ -15,9 +15,5 @@ public class Doctor {
 
     public String getPhone() {
         return phone;
-    }
-
-    public String getAddress() {
-        return address;
     }
 }

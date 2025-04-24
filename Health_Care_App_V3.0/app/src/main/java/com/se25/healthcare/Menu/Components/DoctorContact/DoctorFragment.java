@@ -24,9 +24,8 @@ public class DoctorFragment extends Fragment {
 
         RecyclerView rVwDoctors = view.findViewById(R.id.rVwDoctors);
         ArrayList<Doctor> doctors = new ArrayList<>();
-        doctors.add(new Doctor("Hà Văn Thiệu","0367697788","579 Đường Đỗ Xuân Hợp, Phước Long B, Quận 9, Thành phố Hồ Chí Minh"));
-        doctors.add(new Doctor("Nguyễn Hữu Chung","0981630068","313a Hoà Hảo, Phường 4, Quận 10, Thành phố Hồ Chí Minh"));
-        doctors.add(new Doctor("Hoàng Quốc Hòa","02838991129","395 Điện Biên Phủ, Phường 25, Bình Thạnh, Thành phố Hồ Chí Minh"));
+        doctors.add(new Doctor("Nếu bạn hài lòng với ứng dụng, hãy quyên góp để cùng chúng tôi hỗ trợ những người khó khăn.",""));
+        doctors.add(new Doctor("Donate","STK:121312323123"));
         DoctorAdapter doctorAdapter = new DoctorAdapter(getContext(),doctors);
         rVwDoctors.setAdapter(doctorAdapter);
         rVwDoctors.setLayoutManager(new LinearLayoutManager(getContext()));

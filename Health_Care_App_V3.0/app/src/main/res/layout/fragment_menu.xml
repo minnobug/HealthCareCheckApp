@@ -12,15 +12,10 @@
             android:layout_width="0dp">
             <ImageButton
                 android:id="@+id/imgBtnNews"
-                android:backgroundTint="@color/button_gray"
-                android:background="@drawable/border_32_for_menu"
-                android:layout_margin="10dp"
-                android:padding="20dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/newspaper"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/button_news" />
+                android:background="#ffff"
+               />
         </com.se25.healthcare.Support.ItemSquare>
 
         <com.se25.healthcare.Support.ItemSquare
@@ -29,15 +24,10 @@
             android:layout_width="0dp">
             <ImageButton
                 android:id="@+id/imgBtnSmartWatch"
-                android:backgroundTint="@color/button_gray"
-                android:background="@drawable/border_32_for_menu"
-                android:layout_margin="10dp"
-                android:padding="20dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/smart_watch"
+
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/button_smartwatch" />
+                android:background="#ffff" />
         </com.se25.healthcare.Support.ItemSquare>
 
         <com.se25.healthcare.Support.ItemSquare

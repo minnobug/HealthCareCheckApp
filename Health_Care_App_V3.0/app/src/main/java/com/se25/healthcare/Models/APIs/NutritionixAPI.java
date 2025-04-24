@@ -27,7 +27,6 @@ public abstract class NutritionixAPI {
     private final static String appKey = "0b803ada718756ec72e1905f6cf209ac";
     private final static String foodUrl = "https://trackapi.nutritionix.com/v2/natural/nutrients";
     private final static String exerciseUrl = "https://trackapi.nutritionix.com/v2/natural/exercise";
-
     @SuppressLint("SetTextI18n")
     public static void requestFood(FragmentActivity main, TextView result_place, EditText query) {
         AsyncTask.execute(() -> {

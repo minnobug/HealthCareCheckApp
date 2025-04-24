@@ -81,7 +81,7 @@ public class DoctorAdapter extends RecyclerView.Adapter<DoctorAdapter.DoctorHold
         public void setDoctor(Doctor doctor) {
             txtName.setText(doctor.getName());
             txtPhone.setText(doctor.getPhone());
-            txtAddress.setText(context.getString(R.string.address) +": "+ doctor.getAddress());
+
         }
     }
 }
